@@ -19,7 +19,7 @@ class RotaryNumberPicker extends StatefulWidget {
     this.dropAreaBorderColor = Colors.white,
   });
   final double circleDiameter;
-  final Function({String number}) onGetNumber;
+  final Function(String number) onGetNumber;
   final Color wheelBgColor;
   final Color wheelInnerCircleColor;
   final Color numberCircleColor;
@@ -127,7 +127,7 @@ class _RotaryNumberPickerState extends State<RotaryNumberPicker>
               onPanEnd: (details) {
                 xForcedPulling = false;
                 if (tapAngle <= (360 / dialNum.length)) {
-                  widget.onGetNumber(number: dialNum[clickedIndex]);
+                  widget.onGetNumber(dialNum[clickedIndex]);
                 }
                 double maxAngle =
                     (360 * (dialNum.length - 1 / 2) / dialNum.length);
