@@ -48,7 +48,7 @@ RotaryNumberPicker(
 ```
 
 ## Parameters
-- circleDiameter: Diameter of the picker wheel.
+- circleDiameter: Diameter of the picker wheel (required).
 - numberCircleColor: Color of the circles of each number.
 - selectedNumberCircleColor: Color of the circle of the selected number.
 - numberTextStyle: Text style of the normal numbers text.
@@ -57,7 +57,7 @@ RotaryNumberPicker(
 - wheelInnerCircleColor: Inner circle color of the wheel.
 - dropAreaBorderColor: Border color of the drop area.
 - dropAreaColor: Color of the drop area (prefer color with opacity).
-- onGetNumber: Callback function that returns the selected number.
+- onGetNumber: Callback function that returns the selected number (required)..
 
 
 
