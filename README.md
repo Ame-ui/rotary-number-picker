@@ -8,7 +8,8 @@
 - **Flexible Number Selection:** Suitable for picking any kind of number, eg. phone number, passcode and etc.
 - **Creative UI:** Offers a visually appealing and rotary telephone way to pick numbers. If you tired of using normal number picker just try this.
 
-![[Demo]("https://raw.githubusercontent.com/Ame-ui/rotary-number-picker/main/picker_demo.gif")]
+[![Demo](https://raw.githubusercontent.com/Ame-ui/rotary-number-picker/main/demo_thubnail.jpg)]
+(https://raw.githubusercontent.com/Ame-ui/rotary-number-picker/main/picker_demo.gif)
 
 ## Installation
 
