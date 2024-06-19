@@ -62,6 +62,6 @@ RotaryNumberPicker(
 
 
 ## Contribution
-```markdown
-Contributions are welcome! If you have any issues or feature requests, please create an issue on the [GitHub repository](https://github.com/Ame-ui/rotary-number-picker).
-```
+
+Contributions are welcome! If you have any issues or feature requests, please create an issue on the ![GitHub repository](https://github.com/Ame-ui/rotary-number-picker).
+

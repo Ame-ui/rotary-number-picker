@@ -1,7 +1,12 @@
 name: rotary_number_picker
-description: A new Flutter package project.
+description: >
+  Rotary Number Picker is a highly customizable and creative number picker widget for Flutter. 
+  Ideal for picking numbers such as phone numbers, it offers extensive customization options 
+  for appearance, including selected and unselected states, drop area, and more. Enhance your 
+  app's user experience with this interactive and visually appealing number picker.
+
 version: 0.0.1
-homepage:
+homepage: https://github.com/Ame-ui/rotary-number-picker
 
 environment:
   sdk: ">=3.0.6 <4.0.0"
