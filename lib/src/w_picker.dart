@@ -104,7 +104,9 @@ class _RotaryNumberPickerState extends State<RotaryNumberPicker>
                             (360 * (dialNum.length - 1 / 2) / dialNum.length)));
 
                     // detect how many degree left to rotate to get the nubmer
-                    tapAngle -= additionalAngle;
+                    setState(() {
+                      tapAngle -= additionalAngle;
+                    });
 
                     // if rotate angle is near Drop area, we will pull with force
                     if (tapAngle < (360 / dialNum.length)) {
